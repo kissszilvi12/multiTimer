@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Időmérés</string>
+    <string name="idomeres">Időmérés</string>
+    <string name="jatekos">Játékos</string>
+    <string name="folytatas">Folytatás</string>
+    <string name="szunet">Szünet</string>
+</resources>

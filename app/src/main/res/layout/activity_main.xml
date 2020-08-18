@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hourglass"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gamer1"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:text="@string/jatekos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintBottom_toTopOf="@+id/gamer2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/gamer2"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:text="@string/jatekos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintBottom_toTopOf="@+id/gamer3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/gamer3"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:text="@string/jatekos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintBottom_toTopOf="@+id/gamer4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/gamer4"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/jatekos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintBottom_toTopOf="@+id/gamer5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/gamer5"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:text="@string/jatekos"
+        app:layout_constraintBottom_toTopOf="@+id/gamer6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <Button
+        android:id="@+id/gamer6"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:text="@string/jatekos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintBottom_toTopOf="@+id/pauseButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/cancel6"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer6"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <Button
+        android:id="@+id/cancel5"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer5"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/cancel6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <Button
+        android:id="@+id/cancel4"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer4"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/cancel5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <Button
+        android:id="@+id/cancel3"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer3"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/cancel4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <Button
+        android:id="@+id/cancel2"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer2"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/cancel3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:text="Mégse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamer1"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintBottom_toTopOf="@+id/cancel2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:text="Szünet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:text="Visszaállítás"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/pauseButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/gamer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>
